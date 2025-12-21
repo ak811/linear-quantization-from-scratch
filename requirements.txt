@@ -1,0 +1,8 @@
+torch>=2.0
+torchvision>=0.15
+numpy>=1.23
+matplotlib>=3.7
+tqdm>=4.66
+torchprofile>=0.0.4
+fast-pytorch-kmeans>=0.2.0
+pytest>=7.0
