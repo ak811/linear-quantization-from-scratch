@@ -1,11 +1,9 @@
-# Linear Quantization for CNNs (PyTorch)
+# Linear Quantization: PyTorch Implementation
 
-This repo implements **linear quantization** building blocks in PyTorch and demonstrates them on:
-- toy tensors (so you can see what quantization actually *does*),
-- per-channel weight quantization (common in practice),
-- a fully-quantized **int8** fully-connected layer path (int8 multiply + int32 accumulate on CPU).
-
-It’s organized like an actual project (modules + scripts + tests), not like a notebook that slowly turns into a crime scene.
+This repository implements linear quantization building blocks in PyTorch:
+- toy tensors (what quantization actually does),
+- per-channel weight quantization,
+- a fully-quantized int8 fully-connected layer path (int8 multiply + int32 accumulate on CPU).
 
 ---
 
@@ -34,7 +32,7 @@ It’s organized like an actual project (modules + scripts + tests), not like a 
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
