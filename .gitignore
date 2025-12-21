@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
+data/
+checkpoints/
+*.tar
+*.pt
+*.pth
+.DS_Store
