@@ -1,4 +1,4 @@
-# Linear Quantization: PyTorch Implementation
+# Linear Quantization From Scratch: PyTorch Implementation
 
 This repository implements linear quantization building blocks in PyTorch:
 - toy tensors (what quantization actually does),
